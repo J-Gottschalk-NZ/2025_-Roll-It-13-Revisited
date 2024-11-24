@@ -3,7 +3,7 @@ while True:
 
     want_instructions = input("Do you want to see the instructions? ").lower()
 
-    # check the user says yes / no
+    # check the user says yes / no / y / n
     if want_instructions == "yes" or want_instructions == "y":
         print("you said yes")
         break
